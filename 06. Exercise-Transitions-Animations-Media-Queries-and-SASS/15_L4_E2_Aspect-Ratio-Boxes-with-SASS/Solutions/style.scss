@@ -1,0 +1,67 @@
+@mixin responsive-ratio($x, $y) {
+    $padding: unquote(($y/$x)*100 + "%");
+    &:before {
+      display: block;
+      content: "";
+      padding-top: $padding;
+    }
+  
+    &:after {
+      display: flex;
+      content: "#{$x}x#{$y}";
+      color: #fff;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      font-size: 2rem;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+  }
+  
+  body {
+    padding: 2rem;
+  }
+  
+  .media-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  
+  .media {
+    width: 80vw;
+    background: black;
+    margin: 0 2rem 2rem 0;
+    border-radius: 0.5rem;
+    position: relative;
+  
+     &.ratio-1x1 {
+      @include responsive-ratio(1, 1);
+       flex: 0 0 15%;
+    }
+    &.ratio-16x9 {
+      @include responsive-ratio(16, 9);
+      flex: 0 0 15%;
+    }
+    &.ratio-16x10 {
+      @include responsive-ratio(16, 10);
+      flex: 0 0 15%;
+    }
+    &.ratio-9x16 {
+      @include responsive-ratio(9, 16);
+      flex: 0 0 15%;
+    }
+     &.ratio-3x2 {
+      @include responsive-ratio(3, 2);
+       flex: 0 0 15%;
+    }
+     &.ratio-2x3 {
+      @include responsive-ratio(2, 3);
+       flex: 0 0 15%;
+    }
+   
+  }
+  

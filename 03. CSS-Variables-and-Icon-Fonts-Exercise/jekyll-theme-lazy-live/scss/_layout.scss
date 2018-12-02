@@ -1,0 +1,15 @@
+body {
+	color: var(--color-text-main, red);
+}
+
+.site {
+	padding: var(--spacing-site, 2em);
+}
+
+.site-content {
+	max-width: 60rem;
+	margin: 0 auto;
+}
+
+body p:first-child {
+}

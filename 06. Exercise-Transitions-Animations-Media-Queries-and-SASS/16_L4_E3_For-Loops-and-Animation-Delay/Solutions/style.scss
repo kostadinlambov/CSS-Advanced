@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+@for $i from 1 through 5 {
+  li:nth-child(#{$i}) {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin: 1rem;
+    background: black;
+    animation: slidein 0.3s ease 1 both;
+    animation-delay: 0.15s*$i;
+  }
+}
+
+
+@keyframes slidein {
+  from {
+    transform: translateY(-10rem);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

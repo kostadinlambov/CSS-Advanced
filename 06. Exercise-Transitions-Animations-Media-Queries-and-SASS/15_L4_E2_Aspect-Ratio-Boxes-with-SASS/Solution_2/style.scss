@@ -1,0 +1,58 @@
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+  height: auto;
+
+  &:before {
+      display: block;
+      content: "";
+      width: 100%;
+      padding-top: ($height / $width) * 100%;
+      position: absolute;
+      background-color: black;
+      z-index: -5;
+  }
+}
+
+.site {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 4rem;
+
+  div {
+      color: white;
+      position: relative;
+      font-size: 1.5rem;
+      margin: 6rem 2rem 10rem 2rem;
+      width: 10rem;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  #{&}-one-to-one {
+      @include aspect-ratio(1, 1);
+  }
+
+  #{&}-sixteen-to-nine {
+      @include aspect-ratio(16, 9);
+  }
+
+  #{&}-sixteen-to-ten {
+      @include aspect-ratio(16, 10);
+  }
+
+  #{&}-nine-to-sixteen {
+      @include aspect-ratio(9, 16);
+  }
+
+  #{&}-three-to-two {
+      @include aspect-ratio(3, 2);
+  }
+
+  #{&}-two-to-three {
+      @include aspect-ratio(2, 3);
+  }
+}

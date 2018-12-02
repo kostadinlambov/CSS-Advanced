@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box {
+    width: 5rem;
+    height: 5rem;
+    animation: square-anim 1s ease infinite alternate;
+  }
+  
+  @keyframes square-anim {
+    from {
+      background: red;
+      border-radius: 50%;
+    }
+  
+    to {
+      border-radius: 0;
+      background: orange;
+      transform: scale(3);
+    }
+  }
+  

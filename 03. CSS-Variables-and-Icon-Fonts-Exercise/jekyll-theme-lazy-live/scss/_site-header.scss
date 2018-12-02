@@ -1,0 +1,33 @@
+body {
+	padding-top: 10rem;
+}
+
+.site-header {
+}
+
+.site-branding {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: fixed;
+	top: 0; left: 0;
+	width: 100%;
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 60%,rgba(255,255,255,0) 100%); 
+	padding: var(--spacing-site);
+	padding-bottom: 4rem;
+}
+
+.site-title {
+	font-size: 1.8em;
+	/*font-weight: bold;*/
+	/*text-transform: uppercase;*/
+	padding-bottom: 0.5rem;
+	margin-bottom: 0.5rem;
+	border-bottom: 2px solid #DDD;
+}
+
+.site-description {
+	font-style: italic;
+	font-family: serif;
+	font-size: 110%;
+}

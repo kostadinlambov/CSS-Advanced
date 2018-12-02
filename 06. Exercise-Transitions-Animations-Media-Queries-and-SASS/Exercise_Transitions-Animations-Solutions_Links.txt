@@ -1,0 +1,17 @@
+# 01. Circle to Square Animation
+https://codepen.io/valchak/pen/YRrQqQ?editors=1100
+
+# 02. Fancy List Animation 
+https://codepen.io/valchak/pen/rQGwZL?editors=1100
+
+#03. Animating Gradients
+https://codepen.io/valchak/pen/oQGedJ?editors=1100
+
+# 04. Basic Layout with SASS & Flexbox
+https://codepen.io/valchak/pen/PxJJZz?editors=1100
+
+# 05. Aspect Ratio Boxes with SASSs
+https://codepen.io/valchak/pen/qQVryK?editors=1100
+
+# 06. SASS for Loops and Animation Delay
+https://codepen.io/valchak/pen/bQYWoq?editors=1100

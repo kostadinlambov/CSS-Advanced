@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-11-10T10:15:29+02:00</updated><id>/feed.xml</id><title type="html">Jekyll Theme - Lazy</title><subtitle>It is minimal and lazy!</subtitle><entry><title type="html">First Post for thesting the theme</title><link href="/2018/11/08/first-post-for-testing.html" rel="alternate" type="text/html" title="First Post for thesting the theme" /><published>2018-11-08T18:23:03+02:00</published><updated>2018-11-08T18:23:03+02:00</updated><id>/2018/11/08/first-post-for-testing</id><content type="html" xml:base="/2018/11/08/first-post-for-testing.html">&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;
+
+&lt;h1 id=&quot;title-level-1&quot;&gt;Title Level 1&lt;/h1&gt;
+&lt;h2 id=&quot;title-level-2&quot;&gt;Title Level 2&lt;/h2&gt;
+&lt;h3 id=&quot;title-level-3&quot;&gt;Title Level 3&lt;/h3&gt;
+&lt;h4 id=&quot;title-level-4&quot;&gt;Title Level 4&lt;/h4&gt;
+&lt;h5 id=&quot;title-level-5&quot;&gt;Title Level 5&lt;/h5&gt;
+&lt;h6 id=&quot;title-level-6&quot;&gt;Title Level 6&lt;/h6&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;
+
+&lt;h1 id=&quot;title-level-1-1&quot;&gt;Title Level 1&lt;/h1&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;
+
+&lt;h2 id=&quot;title-level-2-1&quot;&gt;Title Level 2&lt;/h2&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;
+
+&lt;h3 id=&quot;title-level-3-1&quot;&gt;Title Level 3&lt;/h3&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Consetetur sadipscing elitr&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;#&quot;&gt;sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;#&quot;&gt;sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Stet clita kasd gubergren&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.&lt;/p&gt;</content><author><name></name></author><summary type="html">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</summary></entry></feed>

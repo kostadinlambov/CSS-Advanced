@@ -1,0 +1,72 @@
+$sizingBasepadding: 2rem;
+
+html {
+  font: 12px/#{1.5} Georgia, serif;
+
+  @media screen and (min-width: 600px) {
+    font-size: 14px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 16px;
+  }
+}
+
+body {
+  font: inherit;
+
+  @media screen and (min-width: 600px) {
+    padding: $sizingBasepadding;
+  }
+}
+
+p {
+  padding-bottom: 1.5rem;
+}
+
+.site {
+  max-width: 60rem;
+  margin: 0 auto;
+
+  $parent: &;
+
+  #{&}-header {
+    border-bottom: 2px solid black;
+    padding: $sizingBasepadding;
+
+    @at-root {
+      #{$parent}-title {
+        font-size: 2rem;
+        letter-spacing: 0.1em;
+      }
+
+      #{$parent}-description {
+        font-style: italic;
+      }
+    }
+  }
+
+  #{&}-content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #{&}-content {
+    flex: 1 1 25rem;
+    padding: $sizingBasepadding;
+  }
+
+  #{&}-sidebar {
+    padding: $sizingBasepadding;
+    flex: 1 1 10rem;
+
+    ul li {
+      list-style-type: circle;
+      margin-left: 2rem;
+    }
+  }
+
+  #{&}-footer {
+    border-top: 2px solid black;
+    padding: $sizingBasepadding;
+  }
+}

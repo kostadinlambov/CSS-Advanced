@@ -1,0 +1,54 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner {
+    flex: 0 1 auto;
+    height: 80vh;
+    width: 80%; 
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .banner:hover:after{
+      opacity: 0;
+  }
+  
+  .banner:before,
+  .banner:after {
+     display: block;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition: opacity 0.3s ease;
+    opacity: 1
+  }
+  
+  .banner:before {
+    background: linear-gradient(to bottom, #6fb1fc, #4364f7, #0052d4);
+  }
+  
+  .banner:after {
+    background: linear-gradient(to bottom, #00416a, #799f0c, #ffe000);
+  }
+  
+  
+  
+  @keyframes gradient {
+    from {
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+    }
+  }
+  

@@ -1,0 +1,28 @@
+# Site settings
+
+title: Jekyll Theme - Lazy
+description: It is minimal and lazy!
+
+email: koko@rhyndo.com
+
+baseurl: "/jekyll-theme-lazy" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+destination: "docs"
+
+twitter_username: kdankov
+github_username: kdankov
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - .gitignore
+  - scss
+  - gulpfile.js
+  - package.json
+  - package-lock.json
+  - .vscode

@@ -1,0 +1,35 @@
+<article class="main-article-header">
+        <nav>
+            <ul>
+                <li >
+                    <a class="timeline {% if page.url == '/'%} {{include.class}} {% endif%}" href="{{ site.baseurl }}/">
+                        <i class="fas fa-video"></i>
+                        <div class="">TIMELINE</div>
+                    </a>
+                </li>
+                <li>
+                    <a  class="about {% if page.url == '/about/'%} {{include.class}} {% endif%} " href="{{ site.baseurl }}/about">
+                        <i class="fas fa-info-circle"></i>
+                        <div>ABOUT</div>
+                    </a>
+                </li>
+                <li >
+                    <a class="friends {% if page.url == '/friends/'%} {{include.class}} {% endif%}" href="{{ site.baseurl }}/friends">
+                        <i class="fas fa-user-friends"></i>
+                        <div>FRIENDS</div>
+                    </a>
+                </li>
+                <li>
+                    <a class="photos {% if page.url == '/gallery/'%} {{include.class}} {% endif%}" href="{{ site.baseurl }}/gallery">
+                        <i class="fas fa-camera-retro"></i>
+                        <div>PHOTOS</div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </article>
+   
+
+    <!-- <article class="main-article-comment">
+
+        </article> -->
